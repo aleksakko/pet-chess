@@ -11,6 +11,9 @@
   height: calc(64px * 8);
   display: flex;
   flex-wrap: wrap;
+
+  border: 7px solid lightcoral;
+  border-radius: 7px;
 }
 
 .cell {

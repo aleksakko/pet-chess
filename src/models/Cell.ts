@@ -1,5 +1,5 @@
 import { Board } from './Board';
-import { COLORS } from './Colors';
+import { COLORS } from './const';
 import { Figure } from './figures/Figure';
 
 export class Cell {

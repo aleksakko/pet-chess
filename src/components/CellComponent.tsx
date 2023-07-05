@@ -11,7 +11,7 @@ interface ICellProps {
 export const CellComponent: FC<ICellProps> = ({cell}) => {
   return (
     <div className={cn(styles.cell, styles[cell.color])}>
-
+      {cell.figure?.logo && <img src={cell.figure.logo} alt=''/>}
     </div>
   );
 };
