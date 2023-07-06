@@ -11,4 +11,14 @@ export class King extends Figure {
     this.logo = color === COLORS.BLACK ? blackLogo : whiteLogo;
     this.name = FIGURE_NAMES.KING;
   }
+
+  canMove(target: Cell): boolean {
+    if (!super.canMove(target))
+      return false;
+
+    const dx = Math.abs(this.cell.x - target.x); 
+    const dy = Math.abs(this.cell.y - target.y); 
+    
+    return (dx === 0 || dx === 1) && (dy === 0 || dy === 1);
+  }
 }

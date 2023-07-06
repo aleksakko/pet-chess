@@ -17,8 +17,7 @@ function App() {
 
   useEffect(() => {
     restart();
-  });
-
+  }, [restart]);
 
   return (
     <div className={styles.app}>

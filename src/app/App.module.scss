@@ -31,3 +31,19 @@
 .white {
   background-color: wheat;
 }
+
+.selected {
+  background-color: brown;
+}
+
+.available {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  // border: 3px solid forestgreen;
+  background-color: rgba(83, 202, 83, .7);
+}
+
+.availableFigureCell {
+  background: forestgreen;
+}
