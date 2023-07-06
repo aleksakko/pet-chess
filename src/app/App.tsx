@@ -10,14 +10,14 @@ function App() {
     return () => {
       const newBoard = new Board();
       newBoard.initCells();
+      newBoard.addFigures();
       setBoard(newBoard);
     }
   }, [])
 
   useEffect(() => {
     restart();
-  });
-
+  }, [restart]);
 
   return (
     <div className={styles.app}>

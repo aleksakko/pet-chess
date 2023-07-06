@@ -11,6 +11,9 @@
   height: calc(64px * 8);
   display: flex;
   flex-wrap: wrap;
+
+  border: 7px solid lightcoral;
+  border-radius: 7px;
 }
 
 .cell {
@@ -27,4 +30,20 @@
 
 .white {
   background-color: wheat;
+}
+
+.selected {
+  background-color: brown;
+}
+
+.available {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  // border: 3px solid forestgreen;
+  background-color: rgba(83, 202, 83, .7);
+}
+
+.availableFigureCell {
+  background: forestgreen;
 }
