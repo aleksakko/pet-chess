@@ -47,3 +47,25 @@
 .availableFigureCell {
   background: forestgreen;
 }
+
+.lost {
+  height: calc(50vh - 60px);
+  padding: 30px;
+  margin-left: 50px;
+  background-color: lightgrey;
+  overflow-y: auto;
+}
+
+.timer {
+  height: calc(100vh - 60px);
+  width: 175px;
+  padding: 30px;
+  margin-right: 50px;
+  background-color: lightgrey;
+}
+
+.button {
+  background-color: wheat;
+  border: 3px solid lightcoral;
+  border-radius: 5px;
+}
